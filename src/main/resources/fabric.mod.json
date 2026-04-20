@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "xaero_vulkan_compat",
+  "version": "${version}",
+  "name": "Xaero's Vulkan Compat",
+  "description": "Compatibility layer between Xaero's Minimap / World Map and VulkanMod for Minecraft 1.21.1",
+  "authors": [
+    "XaeroVulkanCompat"
+  ],
+  "contact": {
+    "sources": "https://github.com/example/xaero-vulkan-compat"
+  },
+  "license": "MIT",
+  "icon": "assets/xaero_vulkan_compat/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.xaerovulkan.compat.XaeroVulkanCompat"
+    ]
+  },
+  "mixins": [
+    "xaero_vulkan_compat.mixins.json"
+  ],
+  "dependencies": {
+    "fabricloader": ">=0.16.5",
+    "fabric-api": "*",
+    "minecraft": "~1.21.1"
+  },
+  "suggests": {
+    "xaerominimap": "*",
+    "xaeroworldmap": "*",
+    "vulkanmod": "*"
+  },
+  "custom": {
+    "modmenu": {
+      "badges": ["library"],
+      "links": {}
+    }
+  }
+}
