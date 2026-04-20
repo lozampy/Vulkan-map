@@ -3,7 +3,7 @@
   "id": "xaero_vulkan_compat",
   "version": "${version}",
   "name": "Xaero's Vulkan Compat",
-  "description": "Compatibility layer between Xaero's Minimap / World Map and VulkanMod for Minecraft 1.21.1",
+  "description": "Compatibility layer between Xaero's Minimap / World Map and VulkanMod for Minecraft 1.21.11",
   "authors": [
     "XaeroVulkanCompat"
   ],
@@ -22,9 +22,9 @@
     "xaero_vulkan_compat.mixins.json"
   ],
   "dependencies": {
-    "fabricloader": ">=0.16.5",
+    "fabricloader": ">=0.16.9",
     "fabric-api": "*",
-    "minecraft": "~1.21.1"
+    "minecraft": "~1.21.11"
   },
   "suggests": {
     "xaerominimap": "*",
